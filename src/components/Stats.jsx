@@ -19,8 +19,7 @@ import PropTypes from 'prop-types'
             }} id='location'>{location}</p>
             <p style={{
                 color: minMaxColor
-            }} id='min-max'>Max. {maxTemp}°C, Min. {minTemp}°C</p>
-            {/* <img src={rainyicon} /> */}
+            }} id='min-max'>Max. {maxTemp}°C &nbsp; &nbsp; Min. {minTemp}°C</p>
         </div>
     )
 }
