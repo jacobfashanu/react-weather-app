@@ -6,10 +6,6 @@ import defaultbackground1 from '../assets/scenic/scenic-background2.jpeg'
 import defaultbackground2 from '../assets/scenic/scenic4.jpeg'
 
 const background = [defaultbackground1, defaultbackground2][Math.floor(Math.random() * (2 - 0) + 0)];
-// Remaining:
-// -get the remaining weathericons from google
-// -add a state for the font colors of the stats and the color of the background of the stats component
-// -accomodate the night time temperature stuff as well
 
 function App() {
   const [backgroundpic, setBackgroundPic] = useState(background);
