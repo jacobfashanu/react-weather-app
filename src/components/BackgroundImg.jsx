@@ -2,9 +2,6 @@
 import PropTypes from 'prop-types'
 
 export default function BackgroundImg({backgroundpic}) {
-    // const myStyles = {
-    //     z-index:'-1',
-    // }
     return(
         <img src={backgroundpic} style={{
             zIndex: '-1',
