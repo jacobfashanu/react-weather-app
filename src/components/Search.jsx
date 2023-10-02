@@ -40,6 +40,8 @@ export default function Search ({setStatsBackgroundColor, setTempColor, setLocat
                             if(data.cod === '404') {
                                 return
                             }
+                            event.target.value = '';
+                            document.querySelector("input").blur();
                             console.log(data);
                             setShowStats(true);
                             // setBackgroundPic(daythunder);
