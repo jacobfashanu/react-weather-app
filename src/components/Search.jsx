@@ -41,7 +41,7 @@ export default function Search ({setStatsBackgroundColor, setTempColor, setLocat
                                 return
                             }
                             event.target.value = '';
-                            document.querySelector("input").blur();
+                            // document.querySelector("input").blur();
                             console.log(data);
                             setShowStats(true);
                             // setBackgroundPic(daythunder);
