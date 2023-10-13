@@ -21,8 +21,8 @@ import moonicon from '../assets/icons/moon-icon.png'
 export default function Search ({setStatsBackgroundColor, setTempColor, setLocationColor, setMinMaxColor, setWeatherIcon, setTemp, setMinTemp, setMaxTemp, setLocation, setShowStats, setBackgroundPic}) {
 
     async function getWeatherData(city) {
-        const apiKey = '8262a18388df4a006009d44e175f7806';
-        const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+        const api3 = import.meta.env.VITE_KEY;
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api3}&units=metric`;
         const response = await fetch(url);
         const data = await response.json();
         return data;
