@@ -1,6 +1,6 @@
 Live Site URL: [https://jacobf-simple-weather.netlify.app/](https://jacobf-simple-weather.netlify.app/)
 
-### Screenshot
+### Screenshots
 
 ![](./screenshots/weatherapp-screenshot1.png)
 ![](./screenshots/weatherapp-screenshot2.png)
